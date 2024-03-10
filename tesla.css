@@ -1,0 +1,3567 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.tesla {
+  width: 100%;
+  background-size: cover;
+}
+.tesla_tesla01 {
+  width: 100%;
+  height: 200vh;
+  background-color: green;
+}
+.tesla_text {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(255, 255, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+}
+.tesla_text_icon {
+  width: 200px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+}
+.tesla_text_icon1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-family: Calibri, serif;
+  width: 200px;
+  position: relative;
+  height: 40px;
+  max-height: 40px;
+  z-index: 1;
+}
+.tesla_text_icon1:hover {
+  width: 200px;
+  height: 50px;
+  transition: 2s;
+}
+.tesla_text_hover {
+  width: 759.5%;
+  height: 500px;
+  position: absolute;
+  top: -700px;
+  opacity: 0;
+  transition: 2s;
+  color: #ffffff;
+  background: #ffffff;
+  overflow: hidden;
+  left: -660px;
+  display: flex;
+}
+.tesla_text_hover img {
+  width: 220px;
+  height: 120px;
+}
+.tesla_text_hover2 {
+  width: 720px;
+  height: 400px;
+  position: relative;
+  top: 10%;
+  right: -1.5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tesla_text_icon1:hover .tesla_text_hover {
+  top: 0;
+  opacity: 1;
+  overflow: visible;
+}
+.tesla_text_icon1 p {
+  z-index: 999;
+  color: black;
+  transition: 2s;
+}
+.tesla_text_icon1 h2 {
+  width: 200px;
+  height: 100px;
+  transition: 2s;
+}
+.tesla_text_language {
+  width: 10%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  right: 0;
+}
+.tesla_text_hover3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tesla_text_hover4 {
+  display: flex;
+  width: 120px;
+  height: 40px;
+  justify-content: space-around;
+  align-items: center;
+}
+.tesla_text_hover5 {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  position: relative;
+  top: 10%;
+  flex-direction: column;
+}
+.tesla_text_hover6 {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tesla_text_hover7 {
+  display: flex;
+}
+.tesla_text_hover7 img {
+  width: 172px;
+  height: 96.8px;
+}
+.tesla_text_hover10 {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tesla_text_hover10 h5 {
+  font-size: 17px;
+  font-family: Calibri, serif;
+  color: black;
+}
+.tesla_text_hover10 a {
+  font-size: 17px;
+  font-family: Calibri, serif;
+  color: #808080;
+}
+.tesla_text_hover11 h5 {
+  font-size: 17px;
+  font-family: Calibri, serif;
+  color: black;
+}
+.tesla_text_hover11 a {
+  font-size: 17px;
+  font-family: Calibri, serif;
+  color: #808080;
+}
+.tesla_text_hover11 {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tesla_text_hover12 h5 {
+  font-size: 17px;
+  font-family: Calibri, serif;
+  color: black;
+}
+.tesla_text_hover12 a {
+  font-size: 17px;
+  font-family: Calibri, serif;
+  color: #808080;
+}
+.tesla_text_hover12 {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tesla_text_hover13 h5 {
+  font-size: 17px;
+  font-family: Calibri, serif;
+  color: black;
+}
+.tesla_text_hover13 a {
+  font-size: 17px;
+  font-family: Calibri, serif;
+  color: #808080;
+}
+.tesla_text_hover13 {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tesla_text_hover9 {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tesla_text_hover14 {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  top: 0;
+}
+.tesla_text_hover14 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tesla_text_hover16 a {
+  color: #171A20;
+  font-family: Calibri, serif;
+  font-size: 17px;
+}
+.tesla_text_language i {
+  font-size: 20px;
+}
+.tesla_model {
+  width: 100%;
+  height: 30vh;
+  background-color: rgba(255, 0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+}
+.tesla_model_plaid {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-family: Calibri, serif;
+  color: #ffffff;
+}
+.tesla_model_plaid h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: Calibri, serif;
+  position: relative;
+  top: 0;
+}
+.tesla_model_plaid h6 {
+  color: white;
+  font-family: Calibri, serif;
+  font-size: 12px;
+}
+.tesla_now {
+  width: 80%;
+  height: 100px;
+  background-color: rgba(138, 94, 218, 0.23);
+  align-self: flex-end;
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: 0;
+}
+
+.interior {
+  background-color: #000000;
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.interior_perfect {
+  width: 90%;
+  height: 80vh;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.interior_perfect1 {
+  width: 50%;
+  height: 20vh;
+  background-color: rgba(138, 43, 226, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.interior_perfect1 h1 {
+  font-size: 25px;
+  font-family: Calibri, serif;
+  color: white;
+}
+.interior_perfect1 h3 {
+  font-size: 18px;
+  font-family: Calibri, serif;
+  color: white;
+  margin-top: 2%;
+}
+
+.sound {
+  width: 100%;
+  height: 140vh;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sound_div1 {
+  width: 80%;
+  height: 314px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sound_div2 img {
+  width: 558px;
+  height: 314px;
+}
+.sound_div3 {
+  font-size: 12px;
+  color: white;
+  font-family: Calibri, serif;
+}
+.sound_div4 {
+  width: 80%;
+  height: 314px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sound_div5 {
+  font-size: 12px;
+  color: white;
+  font-family: Calibri, serif;
+}
+.sound_div6 video {
+  width: 690px;
+  height: 314px;
+}
+.sound_div7 {
+  width: 80%;
+  height: 314px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sound_div8 img {
+  width: 558px;
+  height: 314px;
+}
+.sound_div9 {
+  font-size: 12px;
+  color: white;
+  font-family: Calibri, serif;
+}
+
+.power {
+  height: 100vh;
+}
+.power_body {
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2800,c_fit,f_auto,q_auto:best/Model-S-Performance-Hero-Desktop-LHD");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.power_body_now5 {
+  width: 50%;
+  height: 100px;
+  align-self: flex-end;
+  display: flex;
+}
+.power_body_power {
+  width: 253px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.power_body_power h1 {
+  color: white;
+  font-family: Calibri, serif;
+  font-size: 30px;
+}
+.power_body_power p {
+  color: white;
+  font-family: Calibri, serif;
+  font-size: 20px;
+}
+.power_body_er {
+  width: 253px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.power_body_er h1 {
+  color: white;
+  font-family: Calibri, serif;
+  font-size: 30px;
+}
+.power_body_er p {
+  color: white;
+  font-family: Calibri, serif;
+  font-size: 20px;
+}
+.power_body_re {
+  width: 253px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.power_body_re h1 {
+  color: white;
+  font-family: Calibri, serif;
+  font-size: 30px;
+}
+.power_body_re p {
+  color: white;
+  font-family: Calibri, serif;
+  font-size: 20px;
+}
+
+.plaid {
+  width: 100%;
+  height: 185px;
+  background-color: rgb(255, 255, 255);
+}
+.plaid_text {
+  display: flex;
+  justify-content: space-around;
+}
+.plaid_main {
+  width: 400px;
+  height: 110px;
+  position: relative;
+  top: 50px;
+}
+.plaid_main p {
+  font-family: Calibri, serif;
+  font-size: 20px;
+}
+.plaid_main h1 {
+  font-size: 30px;
+  font-family: Calibri, serif;
+}
+.plaid_order {
+  width: 204px;
+  height: 40px;
+  border-radius: 10px;
+  border: #171A20 3px solid;
+  transition: 1.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plaid_order:hover {
+  background-color: #171A20;
+  color: white;
+  transition: 1.2s;
+}
+.plaid_order p {
+  font-size: 20px;
+  font-family: Calibri, serif;
+}
+.plaid_main1 {
+  width: 700px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.plaid_model1 {
+  color: #171a20;
+  font-size: 17px;
+  font-family: Calibri, serif;
+}
+
+.electric {
+  width: 100%;
+  height: 130vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.electric_car1 {
+  display: flex;
+  flex-direction: column;
+}
+.electric_car {
+  overflow: hidden;
+}
+.electric_ty5 {
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_1235,w_2880,c_fit,f_auto,q_auto:best/Model-S-Dual-Motor-Powertrain-Carousel-Desktop");
+  background-size: cover;
+  width: 1344px;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  overflow: hidden;
+}
+.electric_ty6 {
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_1235,w_2880,c_fit,f_auto,q_auto:best/Model-S-Plaid-Tri-Motor-Powertrain-Carousel-Desktop");
+  width: 1344px;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  opacity: 0;
+  overflow: hidden;
+  background-size: cover;
+  transition: 1s;
+}
+.electric_ty6:hover {
+  opacity: 1;
+  transition: 1.2s;
+}
+.electric_ty7 {
+  width: 600px;
+  height: 200px;
+}
+.electric_ty8 {
+  width: 600px;
+  height: 140px;
+  position: relative;
+  top: 20%;
+}
+.electric_ty10 h1 {
+  font-size: 22px;
+  color: white;
+  font-family: Calibri, serif;
+}
+.electric_ty10 p {
+  font-family: Calibri, serif;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.electric_ty11 p {
+  font-size: 30px;
+  font-family: Calibri, serif;
+}
+.electric_ty11 h5 {
+  font-size: 15px;
+  font-family: Calibri, serif;
+  color: white;
+}
+
+.with {
+  width: 100%;
+  height: 100vh;
+  background-color: blueviolet;
+}
+.with_img1 img {
+  width: 100%;
+  height: 100vh;
+}
+
+.content {
+  width: 100%;
+  height: 150vh;
+  background-color: rgb(0, 0, 0);
+}
+.content_car2 {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.content_car2_car3 {
+  width: 70%;
+  height: 313px;
+  display: flex;
+}
+.content_car2_car3_car4 {
+  width: 50%;
+  height: 313px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content_car2_car3_car4_car5 img {
+  width: 558px;
+  height: 313px;
+}
+.content_car2_car3_car4 h1 {
+  font-size: 17px;
+  color: #ffffff;
+  font-family: Calibri, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content_car2_car3_car6 {
+  width: 70%;
+  height: 313px;
+  display: flex;
+}
+.content_car2_car3_car6_car7 img {
+  width: 558px;
+  height: 313px;
+}
+.content_car2_car3_car6_car8 {
+  width: 50%;
+  height: 313px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content_car2_car3_car6_car8 h1 {
+  color: white;
+  font-size: 17px;
+  font-family: Calibri, serif;
+}
+.content_car2_car3_car9 {
+  width: 70%;
+  height: 313px;
+  display: flex;
+}
+.content_car2_car3_car9_car10 {
+  height: 313px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content_car2_car3_car9_car10 h1 {
+  color: white;
+  font-size: 17px;
+  font-family: Calibri, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content_car2_car3_car9_car11 img {
+  width: 558px;
+  height: 313px;
+}
+.content_car2_car3 {
+  width: 1152px;
+  height: 313px;
+  display: flex;
+}
+.content_car2_car3_car5 {
+  width: 50%;
+  height: 313px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content_car2_car3_car5_car5 img {
+  width: 558px;
+  height: 313px;
+}
+
+.range {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+}
+.range_video1 {
+  display: flex;
+}
+.range_video1_video2_class1 {
+  width: 1120px;
+  height: 738px;
+}
+.range_video1_video3 {
+  width: 399px;
+  height: 720px;
+  background-color: white;
+}
+.range_video1_video3_video4 {
+  width: 399px;
+  height: 290px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.range_video1_video3_video4_video5 p {
+  font-size: 20px;
+  font-family: Calibri, serif;
+  color: #393C41;
+}
+.range_video1_video3_video4_video5 h6 {
+  font-size: 16px;
+  font-family: Calibri, serif;
+  color: #393C41;
+}
+.range_video1_video3_video4_video5 h2 {
+  font-size: 30px;
+  color: black;
+  font-family: Calibri, serif;
+}
+.range_video1_video3_video4_video6 {
+  width: 399px;
+  height: 430px;
+  background-color: #ffffff;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.range_video1_video3_video4_video6_video7 {
+  border: 3px solid #212226;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #212226;
+  width: 366px;
+  height: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.range_video1_video3_video4_video6_video7:hover {
+  width: 366px;
+  height: 40px;
+  background-color: rgba(33, 34, 38, 0.2);
+  color: white;
+}
+
+.tesla10 {
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+}
+.tesla10_design2 {
+  width: 500px;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tesla10_design3 {
+  width: 300px;
+  height: 180px;
+  background-color: #ffffff;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.tesla10_design3 p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: Calibri, serif;
+}
+.tesla10_design3 h1 {
+  color: rgba(0, 0, 0, 0.91);
+  font-size: 30px;
+  font-family: Calibri, serif;
+}
+.tesla10_design3 h5 {
+  font-family: Calibri, serif;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.65);
+  position: relative;
+  top: 2%;
+}
+.tesla10_design4 {
+  width: 300px;
+  height: 100px;
+  background-color: #ffffff;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.tesla10_design4 h5 {
+  font-size: 15px;
+  font-family: Calibri, serif;
+  color: rgba(0, 0, 0, 0.65);
+}
+.tesla10_design5 {
+  width: 800px;
+  height: 100vh;
+  background-size: cover;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tesla10_design6 {
+  background-image: url("https://tsk.ua/data/teslacat_razdel/48/0/480_a.png");
+  width: 782px;
+  height: 442px;
+}
+.tesla10_design7 {
+  width: 300px;
+  height: 330px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tesla10_design8 {
+  width: 200px;
+  height: 40px;
+  border: 3px solid rgba(0, 0, 0, 0.9);
+  position: relative;
+  right: 16%;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Calibri, serif;
+  color: rgba(0, 0, 0, 0.79);
+  font-size: 20px;
+  transition: 1s;
+}
+.tesla10_design8:hover {
+  background-color: rgba(0, 0, 0, 0.92);
+  color: white;
+  transition: 1s;
+}
+
+.main_overflow {
+  max-width: 100%;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.main_overflow_box {
+  min-width: 100%;
+  width: 500px;
+  height: 100vh;
+  background-color: #2354a4;
+}
+.main_overflow_box_box5 {
+  width: 100%;
+}
+
+.vision {
+  width: 100%;
+  height: 81.3vh;
+  background-color: #ffffff;
+}
+.vision_cars {
+  width: 100%;
+  height: 542px;
+}
+
+.pilot {
+  width: 100%;
+  height: 20vh;
+}
+.pilot_driving {
+  display: flex;
+  justify-content: space-around;
+}
+.pilot_driving_driving1 {
+  width: 400px;
+  height: 148px;
+}
+.pilot_driving_driving1 h5 {
+  color: #1f1d1d;
+  font-size: 18px;
+  font-family: Calibri, serif;
+}
+.pilot_driving_driving1 h1 {
+  color: black;
+  font-family: "Gotham SSm", Calibri, serif;
+  font-size: 33px;
+}
+.pilot_driving_driving2 {
+  width: 200px;
+  height: 40px;
+  border: 3px solid #171a20;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: 1.2s;
+  position: relative;
+  top: 5%;
+}
+.pilot_driving_driving2_driving3 {
+  font-family: "Gotham SSm", Calibri, serif;
+  color: #171a20;
+  font-size: 18px;
+}
+.pilot_driving_driving2:hover {
+  transition: 1.2s;
+  background-color: #171a20;
+  color: white;
+}
+.pilot_driving_driving2:hover span {
+  color: white;
+  transition: 1.2s;
+}
+.pilot_driving_driving4 {
+  width: 700px;
+  height: 150px;
+}
+.pilot_driving_driving4_driving5 {
+  font-family: "Gotham SSm", Calibri, serif;
+  font-size: 17px;
+  color: #171a20;
+}
+
+.features {
+  height: 20vh;
+}
+.features_fuul {
+  width: 66.5%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.features_fuul_fuul1 {
+  width: 800px;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.features_fuul_fuul1 h1 {
+  font-family: "Gotham SSm", Calibri, serif;
+  font-size: 33px;
+  color: black;
+}
+.features_fuul_fuul1 p {
+  font-family: "Gotham SSm", Calibri, serif;
+  font-size: 18px;
+  color: #171a20;
+}
+
+.range {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.range_drag {
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_3071,w_4096,c_fit,f_auto,q_auto:best/Model-S-Specs-Hero-Desktop-LHD");
+  width: 744px;
+  height: 557px;
+  background-size: cover;
+}
+.range_drag1 {
+  width: 600px;
+  height: 100vh;
+  display: flex;
+}
+.range_drag1_drag3 {
+  width: 280px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.range_drag1_drag3_drag4 {
+  width: 255px;
+  height: 30px;
+  border: 3px solid white;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.range_drag1_drag3_drag4 h6 {
+  font-family: "Gotham SSm", Calibri, serif;
+  color: white;
+  font-size: 15px;
+}
+.range_drag1_drag3 h1 {
+  font-family: "Gotham SSm", Calibri, serif;
+  font-size: 32px;
+  color: #ffffff;
+}
+.range_drag1_drag5 {
+  width: 280px;
+  height: 500px;
+}
+.range_drag1_drag5_drag6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 280px;
+  height: 500px;
+}
+.range_drag1_drag5_drag6 li {
+  font-family: "Gotham SSm", Calibri, serif;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.range_drag1_drag10 {
+  width: 280px;
+  height: 120px;
+  display: flex;
+  align-items: flex-end;
+}
+.range_drag1_drag10_drag11 {
+  width: 259px;
+  height: 34px;
+  border: 3px solid rgba(255, 255, 255, 0.39);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  top: -7%;
+}
+.range_drag1_drag10_drag11 h5 {
+  font-size: 14px;
+  font-family: "Gotham SSm", Calibri, serif;
+  color: rgba(255, 255, 255, 0.7);
+}
+.range_drag1_drag8 {
+  width: 280px;
+  height: 500px;
+}
+.range_drag1_drag8_drag9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 280px;
+  height: 600px;
+}
+.range_drag1_drag8_drag9 li {
+  font-family: "Gotham SSm", Calibri, serif;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.range_drag1_drag8_drag12 {
+  color: white;
+}
+.range_drag1_drag8_drag13 {
+  color: white;
+  font-size: 18px;
+}
+
+.request {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+.request_callback {
+  background-color: white;
+}
+.request_callback_request1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.request_callback_request1_request2 {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.request_callback_request1_request2_request5 {
+  width: 60%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.request_callback_request1_request2_request5_request11 {
+  width: 450px;
+  height: 120px;
+}
+.request_callback_request1_request2_request5_request6 {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 10%;
+}
+.request_callback_request1_request2_request5_request7 {
+  width: 204px;
+  height: 40px;
+  border: 3px solid #171a20;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1.2s;
+}
+.request_callback_request1_request2_request5_request7_request9 {
+  color: #171A20;
+  font-family: "Gotham SSm", Calibri, serif;
+  font-size: 17px;
+}
+.request_callback_request1_request2_request5_request7_request8 {
+  width: 204px;
+  height: 40px;
+  background-color: #F4F4F4;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.request_callback_request1_request2_request5_request7_request8_request10 {
+  color: #171A20;
+  font-family: "Gotham SSm", Calibri, serif;
+  font-size: 17px;
+}
+.request_callback_request1_request2_request5_request7:hover {
+  background-color: #171A20;
+  transition: 1.2s;
+  color: white;
+}
+.request_callback_request1_request2_request5_request7:hover a {
+  color: white;
+  transition: 1.2s;
+}
+.request_callback_request1_request2_request5 h1 {
+  color: #171A20;
+  font-family: "Gotham SSm", Calibri, serif;
+  font-size: 30px;
+}
+.request_callback_request1_request2_request5 p {
+  color: #393C41;
+  font-family: "Gotham SSm", Calibri, serif;
+  font-size: 15px;
+}
+.request_callback_request1_request3 {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.request_callback_request1_request3_request4 img {
+  width: 696px;
+  height: 385px;
+  position: relative;
+  right: 15%;
+}
+
+.news {
+  width: 100%;
+  height: 30vh;
+}
+.news_news2 {
+  background-color: white;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.news_news2_news3 {
+  text-align: center;
+  font-family: "Gotham SSm", Calibri, serif;
+}
+.news_news2_news3 a {
+  color: #171a20;
+}
+.news_news4 {
+  color: white;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.news_news4_news5 {
+  display: flex;
+  font-family: "Gotham SSm", Calibri, serif;
+  font-size: 17px;
+  list-style: none;
+  width: 700px;
+  justify-content: space-around;
+}
+
+@media (max-width: 1440px) {
+  .interior_perfect video {
+    width: 90%;
+  }
+  .interior_perfect1 h1 {
+    font-size: 23px;
+  }
+  .interior_perfect1 h3 {
+    font-size: 17px;
+  }
+  .sound {
+    height: 150vh;
+  }
+  .sound_div2 {
+    width: 550px;
+    height: 189px;
+  }
+  .sound_div2 {
+    width: 364px;
+    height: 300px;
+  }
+  .sound_div6 {
+    width: 550px;
+    height: 300px;
+  }
+  .sound_div8 {
+    width: 550px;
+    height: 300px;
+  }
+  .content {
+    height: 170vh;
+  }
+  .content_car2 {
+    height: 170vh;
+  }
+  .content_car2_car3 {
+    background-color: black;
+  }
+}
+@media (max-width: 768px) {
+  .tesla {
+    width: 100%;
+    height: 65.5vh;
+    background-color: rgba(0, 0, 255, 0);
+  }
+  .tesla_text {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+  }
+  .tesla_text_icon {
+    width: 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+  }
+  .tesla_text_icon1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Calibri, serif;
+    width: 200px;
+    position: relative;
+    color: #84ff00;
+    height: 40px;
+    max-height: 40px;
+    z-index: 1;
+  }
+  .tesla_text_icon1:hover {
+    width: 200px;
+    height: 50px;
+    transition: 2s;
+  }
+  .tesla_text_hover {
+    width: 570%;
+    height: 70vh;
+    position: absolute;
+    background: #ffffff;
+    top: -700px;
+    opacity: 0;
+    transition: 2s;
+    color: #ffffff;
+    overflow: hidden;
+    left: -660px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .tesla_text_hover img {
+    width: 180px;
+    height: 110px;
+  }
+  .tesla_text_hover2 {
+    width: 720px;
+    height: 400px;
+    position: relative;
+    top: 50%;
+    left: 17%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tesla_text_icon1:hover .tesla_text_hover {
+    top: 0;
+    opacity: 1;
+    overflow: visible;
+  }
+  .tesla_text_icon1 p {
+    z-index: 999;
+    color: black;
+    transition: 2s;
+  }
+  .tesla_text_icon1 h2 {
+    width: 200px;
+    height: 100px;
+    transition: 2s;
+  }
+  .tesla_text_language {
+    width: 10%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    right: 0;
+  }
+  .tesla_text_hover3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .tesla_text_hover4 {
+    display: flex;
+    width: 120px;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .tesla_text_hover5 {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    top: 0;
+    opacity: 0;
+  }
+  .tesla_text_hover6 {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 17%;
+  }
+  .tesla_text_hover7 {
+    display: flex;
+  }
+  .tesla_text_hover7 img {
+    width: 172px;
+    height: 96.8px;
+  }
+  .tesla_text_hover10 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tesla_text_hover10 h5 {
+    font-size: 17px;
+    font-family: Calibri, serif;
+    color: black;
+  }
+  .tesla_text_hover10 a {
+    font-size: 17px;
+    font-family: Calibri, serif;
+    color: #808080;
+  }
+  .tesla_text_hover11 h5 {
+    font-size: 17px;
+    font-family: Calibri, serif;
+    color: black;
+  }
+  .tesla_text_hover11 a {
+    font-size: 17px;
+    font-family: Calibri, serif;
+    color: #808080;
+  }
+  .tesla_text_hover11 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tesla_text_hover12 h5 {
+    font-size: 17px;
+    font-family: Calibri, serif;
+    color: black;
+  }
+  .tesla_text_hover12 a {
+    font-size: 17px;
+    font-family: Calibri, serif;
+    color: #808080;
+  }
+  .tesla_text_hover12 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tesla_text_hover13 h5 {
+    font-size: 17px;
+    font-family: Calibri, serif;
+    color: black;
+  }
+  .tesla_text_hover13 a {
+    font-size: 17px;
+    font-family: Calibri, serif;
+    color: #808080;
+  }
+  .tesla_text_hover13 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tesla_text_hover9 {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tesla_text_hover14 {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    top: 10%;
+    opacity: 0;
+  }
+  .tesla_text_hover14 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .tesla_text_hover16 a {
+    color: #171A20;
+    font-family: Calibri, serif;
+    font-size: 17px;
+  }
+  .interior {
+    height: 60vh;
+    background-color: #000000;
+  }
+  .interior_perfect1 {
+    width: 364px;
+    height: 300px;
+  }
+  .interior_perfect video {
+    height: 275px;
+  }
+  .interior_perfect1 h1 {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .interior_perfect1 h3 {
+    font-size: 15px;
+  }
+  .sound {
+    flex-wrap: wrap;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sound_div2 img {
+    width: 348px;
+    height: 189px;
+    position: relative;
+    top: 18%;
+  }
+  .sound_div6 video {
+    width: 336px;
+    height: 189px;
+    position: relative;
+    top: 18%;
+    left: 18%;
+  }
+  .sound_div8 img {
+    width: 348px;
+    height: 189px;
+    position: relative;
+    top: 18%;
+  }
+  .sound_div1 {
+    width: 80%;
+    height: 189px;
+    display: flex;
+    align-items: center;
+  }
+  .sound_div4 {
+    width: 80%;
+    height: 189px;
+    display: flex;
+    align-items: center;
+  }
+  .sound_div7 {
+    width: 80%;
+    height: 189px;
+    display: flex;
+    align-items: center;
+  }
+  .sound_div3 {
+    font-size: 8px;
+    color: white;
+    font-family: Calibri, serif;
+  }
+  .sound_div5 {
+    font-size: 8px;
+    color: white;
+    font-family: Calibri, serif;
+  }
+  .sound_div9 {
+    font-size: 8px;
+    color: white;
+    font-family: Calibri, serif;
+  }
+  .power_body {
+    width: 768px;
+    height: 380px;
+  }
+  .power_body_now5 {
+    width: 50%;
+    height: 100px;
+    align-self: flex-end;
+    display: flex;
+  }
+  .power_body_power {
+    width: 253px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .power_body_power h1 {
+    color: white;
+    font-family: Calibri, serif;
+    font-size: 20px;
+  }
+  .power_body_power p {
+    color: white;
+    font-family: Calibri, serif;
+    font-size: 15px;
+  }
+  .power_body_er {
+    width: 253px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .power_body_er h1 {
+    color: white;
+    font-family: Calibri, serif;
+    font-size: 20px;
+  }
+  .power_body_er p {
+    color: white;
+    font-family: Calibri, serif;
+    font-size: 15px;
+  }
+  .power_body_re {
+    width: 253px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .power_body_re h1 {
+    color: white;
+    font-family: Calibri, serif;
+    font-size: 20px;
+  }
+  .power_body_re p {
+    color: white;
+    font-family: Calibri, serif;
+    font-size: 15px;
+  }
+  .power {
+    height: 60vh;
+  }
+  .plaid {
+    background-color: white;
+    height: 40vh;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .plaid_text {
+    align-items: center;
+  }
+  .plaid_main {
+    width: 400px;
+    height: 100px;
+    position: relative;
+    right: 19%;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .plaid_main p {
+    font-family: Calibri, serif;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .plaid_main h1 {
+    font-size: 25px;
+    font-family: Calibri, serif;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .plaid_order {
+    width: 134px;
+    height: 28px;
+    border-radius: 10px;
+    border: rgba(23, 26, 32, 0.96) 3px solid;
+    transition: 1.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 8%;
+  }
+  .plaid_order:hover {
+    background-color: #171A20;
+    color: white;
+    transition: 1.2s;
+  }
+  .plaid_order p {
+    font-size: 15px;
+    font-family: Calibri, serif;
+  }
+  .plaid_main1 {
+    width: 700px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .plaid_model1 {
+    color: #171a20;
+    font-size: 15px;
+    font-family: Calibri, serif;
+    width: 696px;
+    height: 60px;
+  }
+  .electric {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .electric_car1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .electric_car {
+    overflow: hidden;
+  }
+  .electric_ty5 {
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_1235,w_2880,c_fit,f_auto,q_auto:best/Model-S-Dual-Motor-Powertrain-Carousel-Desktop");
+    background-size: cover;
+    width: 768px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+  }
+  .electric_ty6 {
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_1235,w_2880,c_fit,f_auto,q_auto:best/Model-S-Plaid-Tri-Motor-Powertrain-Carousel-Desktop");
+    width: 768px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    opacity: 0;
+    overflow: hidden;
+    background-size: cover;
+    transition: 1s;
+  }
+  .electric_ty6:hover {
+    opacity: 1;
+    transition: 1.2s;
+  }
+  .electric_ty7 {
+    width: 600px;
+    height: 176px;
+  }
+  .electric_ty8 {
+    width: 600px;
+    height: 140px;
+    position: relative;
+    top: 20%;
+  }
+  .electric_ty10 h1 {
+    font-size: 20px;
+    color: white;
+    font-family: Calibri, serif;
+  }
+  .electric_ty10 p {
+    font-family: Calibri, serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.55);
+  }
+  .electric_ty11 p {
+    font-size: 25px;
+    font-family: Calibri, serif;
+    color: white;
+  }
+  .electric_ty11 h5 {
+    font-size: 13px;
+    font-family: Calibri, serif;
+    color: rgba(23, 26, 32, 0.92);
+  }
+  .plaid {
+    background-color: white;
+    height: 40vh;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .plaid_text {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .plaid_main {
+    width: 400px;
+    height: 100px;
+    position: relative;
+    right: 19%;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .plaid_main p {
+    font-family: Calibri, serif;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .plaid_main h1 {
+    font-size: 25px;
+    font-family: Calibri, serif;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .plaid_order {
+    width: 134px;
+    height: 28px;
+    border-radius: 10px;
+    border: rgba(23, 26, 32, 0.96) 3px solid;
+    transition: 1.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 8%;
+  }
+  .plaid_order:hover {
+    background-color: #171A20;
+    color: white;
+    transition: 1.2s;
+  }
+  .plaid_order p {
+    font-size: 15px;
+    font-family: Calibri, serif;
+  }
+  .plaid_main {
+    width: 700px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .plaid_model {
+    color: #171a20;
+    font-size: 15px;
+    font-family: Calibri, serif;
+    width: 696px;
+    height: 60px;
+  }
+  .with {
+    width: 100%;
+    height: 500px;
+    background-color: blueviolet;
+  }
+  .with_img1 img {
+    width: 768px;
+    height: 500px;
+    color: white;
+  }
+  .content {
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(0, 0, 0);
+  }
+  .content_car2 {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .content_car2_car3 {
+    width: 70%;
+    height: 200px;
+    display: flex;
+  }
+  .content_car2_car3_car4 {
+    width: 50%;
+    height: 200px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content_car2_car3_car4_car5 img {
+    width: 300px;
+    height: 200px;
+  }
+  .content_car2_car3_car4 h1 {
+    font-size: 13px;
+    color: #ffffff;
+    font-family: Calibri, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content_car2_car3_car6 {
+    width: 80%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+  }
+  .content_car2_car3_car6_car7 img {
+    width: 300px;
+    height: 200px;
+  }
+  .content_car2_car3_car6_car8 {
+    width: 45%;
+    height: 200px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content_car2_car3_car6_car8 h1 {
+    color: white;
+    font-size: 14px;
+    font-family: Calibri, serif;
+  }
+  .range {
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  .range_video1 {
+    flex-wrap: wrap;
+  }
+  .range_video1_video2_class1 {
+    width: 768px;
+    height: 365px;
+  }
+  .range_video1_video3 {
+    width: 768px;
+    height: 300px;
+    background-color: white;
+  }
+  .range_video1_video3_video4 {
+    width: 762px;
+    height: 160px;
+    background-color: #ffffff;
+  }
+  .range_video1_video3_video4_video5 {
+    width: 585px;
+    height: 160px;
+    background-color: #ffffff;
+  }
+  .range_video1_video3_video4_video5 p {
+    font-size: 20px;
+    font-family: Calibri, serif;
+    color: #393C41;
+  }
+  .range_video1_video3_video4_video5 h6 {
+    font-size: 14px;
+    font-family: Calibri, serif;
+    color: #393C41;
+  }
+  .range_video1_video3_video4_video5 h2 {
+    font-size: 30px;
+    color: black;
+    font-family: Calibri, serif;
+  }
+  .range_video1_video3_video4_video6 {
+    width: 555px;
+    height: 80px;
+    background-color: #ffffff;
+  }
+  .range_video1_video3_video4_video6_video7 {
+    border: 3px solid #212226;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #212226;
+    width: 366px;
+    height: 40px;
+    color: white;
+  }
+  .range_video1_video3_video4_video6_video7:hover {
+    width: 366px;
+    height: 40px;
+    background-color: rgba(33, 34, 38, 0.2);
+    color: white;
+  }
+  .main_overflow {
+    max-width: 100%;
+    height: 65.5vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  .main_overflow_box {
+    min-width: 100%;
+    width: 500px;
+    height: 100vh;
+    background-color: #2354a4;
+  }
+  .main_overflow_box_box5 {
+    width: 768px;
+    height: 432px;
+  }
+  .tesla10 {
+    width: 100%;
+    height: 85vh;
+    background-color: rgba(255, 255, 255, 0.94);
+    flex-wrap: wrap;
+  }
+  .tesla10_design2 {
+    width: 768px;
+    height: 50vh;
+    background-color: #ffffff;
+    display: flex;
+    position: relative;
+    top: 41%;
+  }
+  .tesla10_design3 {
+    width: 600px;
+    height: 180px;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .tesla10_design3 p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.85);
+    font-family: Calibri, serif;
+  }
+  .tesla10_design3 h1 {
+    color: rgba(0, 0, 0, 0.91);
+    font-size: 30px;
+    font-family: Calibri, serif;
+  }
+  .tesla10_design3 h5 {
+    font-family: Calibri, serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.65);
+    position: relative;
+    top: 2%;
+  }
+  .tesla10_design4 {
+    width: 600px;
+    height: 100px;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .tesla10_design4 h5 {
+    font-size: 15px;
+    font-family: Calibri, serif;
+    color: rgba(0, 0, 0, 0.65);
+  }
+  .tesla10_design5 {
+    width: 768px;
+    height: 40vh;
+    background-size: cover;
+    background-color: #ffffff;
+    position: relative;
+    top: -65%;
+    align-items: center;
+    justify-content: center;
+  }
+  .tesla10_design6 {
+    background-image: url("https://tsk.ua/data/teslacat_razdel/48/0/480_a.png");
+    width: 500px;
+    height: 263px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    position: relative;
+    top: 10%;
+  }
+  .tesla10_design7 {
+    width: 600px;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tesla10_design8 {
+    width: 200px;
+    height: 40px;
+    border: 3px solid rgba(0, 0, 0, 0.9);
+    position: relative;
+    right: 33%;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Calibri, serif;
+    color: rgba(0, 0, 0, 0.79);
+    font-size: 20px;
+    transition: 1s;
+  }
+  .tesla10_design8:hover {
+    background-color: rgba(0, 0, 0, 0.92);
+    color: white;
+    transition: 1s;
+  }
+  .vision {
+    width: 100%;
+    height: 45.6vh;
+  }
+  .vision_cars img {
+    width: 768px;
+    height: 300px;
+  }
+  .pilot {
+    width: 100%;
+    height: 42vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 5%;
+  }
+  .pilot_driving {
+    height: 38vh;
+    flex-direction: column;
+  }
+  .pilot_driving_driving1 {
+    width: 400px;
+    height: 148px;
+  }
+  .pilot_driving_driving1 h5 {
+    color: #1f1d1d;
+    font-size: 15px;
+    font-family: Calibri, serif;
+  }
+  .pilot_driving_driving1 h1 {
+    color: black;
+    font-family: "Gotham SSm", Calibri, serif;
+    font-size: 28px;
+  }
+  .pilot_driving_driving2 {
+    width: 180px;
+    height: 38px;
+    border: 2px solid #171a20;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: 1.2s;
+    position: relative;
+    top: 5%;
+  }
+  .pilot_driving_driving2_driving3 {
+    font-family: "Gotham SSm", Calibri, serif;
+    color: #171a20;
+    font-size: 15px;
+  }
+  .pilot_driving_driving2:hover {
+    transition: 1.2s;
+    background-color: #171a20;
+    color: white;
+  }
+  .pilot_driving_driving2:hover span {
+    color: white;
+    transition: 1.2s;
+  }
+  .pilot_driving_driving4 {
+    width: 650px;
+    height: 100px;
+  }
+  .pilot_driving_driving4_driving5 {
+    font-family: "Gotham SSm", Calibri, serif;
+    font-size: 17px;
+    color: #171a20;
+  }
+  .features {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .features_fuul {
+    width: 85%;
+    height: 20vh;
+  }
+  .features_fuul_fuul1 {
+    width: 660px;
+    height: 20vh;
+    flex-direction: column;
+  }
+  .features_fuul_fuul1 h1 {
+    font-family: "Gotham SSm", Calibri, serif;
+    font-size: 28px;
+    color: black;
+  }
+  .features_fuul_fuul1 p {
+    font-family: "Gotham SSm", Calibri, serif;
+    font-size: 15px;
+    color: #171a20;
+  }
+  .range {
+    width: 768px;
+    height: 130vh;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .range_drag {
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_3071,w_4096,c_fit,f_auto,q_auto:best/Model-S-Specs-Hero-Desktop-LHD");
+    width: 360px;
+    height: 270px;
+    background-size: cover;
+  }
+  .range_drag1 {
+    width: 400px;
+    height: 110vh;
+    display: flex;
+  }
+  .range_drag1_drag3 {
+    width: 200px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .range_drag1_drag3_drag4 {
+    width: 180px;
+    height: 28px;
+    border: 3px solid white;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .range_drag1_drag3_drag4 h6 {
+    font-family: "Gotham SSm", Calibri, serif;
+    color: white;
+    font-size: 14px;
+  }
+  .range_drag1_drag3 h1 {
+    font-family: "Gotham SSm", Calibri, serif;
+    font-size: 28px;
+    color: #ffffff;
+  }
+  .range_drag1_drag5 {
+    width: 200px;
+    height: 600px;
+  }
+  .range_drag1_drag5_drag6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+    height: 500px;
+  }
+  .range_drag1_drag5_drag6 li {
+    font-family: "Gotham SSm", Calibri, serif;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .range_drag1_drag10 {
+    width: 200px;
+    height: 120px;
+    display: flex;
+    align-items: flex-end;
+  }
+  .range_drag1_drag10_drag11 {
+    width: 200px;
+    height: 28px;
+    border: 3px solid rgba(255, 255, 255, 0.39);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    top: -7%;
+  }
+  .range_drag1_drag10_drag11 h5 {
+    font-size: 14px;
+    font-family: "Gotham SSm", Calibri, serif;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .range_drag1_drag8 {
+    width: 200px;
+    height: 500px;
+  }
+  .range_drag1_drag8_drag9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+    height: 600px;
+  }
+  .range_drag1_drag8_drag9 li {
+    font-family: "Gotham SSm", Calibri, serif;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .range_drag1_drag8_drag12 {
+    color: white;
+  }
+  .range_drag1_drag8_drag13 {
+    color: white;
+    font-size: 14px;
+  }
+}
+@media (max-width: 364px) {
+  .tesla {
+    width: 363px;
+    height: 31vh;
+    background-color: rgba(0, 0, 255, 0);
+  }
+  .tesla_text {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+  }
+  .tesla_text_icon {
+    width: 130px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+  }
+  .tesla_text_icon1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Calibri, serif;
+    width: 200px;
+    position: relative;
+    color: #84ff00;
+    height: 40px;
+    max-height: 40px;
+    z-index: 1;
+  }
+  .tesla_text_icon1:hover {
+    width: 200px;
+    height: 50px;
+    transition: 2s;
+  }
+  .tesla_text_hover {
+    width: 470%;
+    height: 150vh;
+    position: absolute;
+    background: #ffffff;
+    top: -700px;
+    opacity: 0;
+    transition: 2s;
+    color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .tesla_text_hover img {
+    width: 220px;
+    height: 120px;
+  }
+  .tesla_text_hover2 {
+    width: 360px;
+    height: 370px;
+    position: relative;
+    left: 224px;
+    display: flex;
+    top: 0;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  .tesla_text_hover2_icon1:hover .tesla_text_hover {
+    top: 0;
+    opacity: 1;
+    overflow: visible;
+  }
+  .tesla_text_hover2_icon1 p {
+    z-index: 999;
+    color: black;
+    transition: 2s;
+  }
+  .tesla_text_hover2_icon1 h2 {
+    width: 200px;
+    height: 100px;
+    background: yellow;
+    transition: 2s;
+  }
+  .tesla_text_hover2_language {
+    width: 10%;
+    height: 70px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    right: 0;
+  }
+  .tesla_text_hover2_hover3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .tesla_text_hover2_hover4 {
+    display: flex;
+    width: 120px;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(138, 43, 226, 0.37);
+  }
+  .tesla_text_hover2_hover5 {
+    width: 100%;
+    height: 400px;
+    background-color: blueviolet;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    opacity: 0;
+  }
+  .tesla_text_hover2_hover6 {
+    width: 100%;
+    height: 200px;
+    background-color: #00ff9d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    opacity: 0;
+  }
+  .tesla_text_hover2_hover7 {
+    display: flex;
+  }
+  .tesla_text_hover2_hover7 img {
+    width: 172px;
+    height: 96.8px;
+  }
+  .tesla_text_hover2_hover10 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tesla_text_hover2_hover10 h5 {
+    font-size: 17px;
+    font-family: Calibri, serif;
+    color: black;
+  }
+  .tesla_text_hover2_hover10 a {
+    font-size: 17px;
+    font-family: Calibri, serif;
+    color: #808080;
+  }
+  .tesla_text_hover2_hover11 h5 {
+    font-size: 17px;
+    font-family: Calibri, serif;
+    color: black;
+  }
+  .tesla_text_hover2_hover11 a {
+    font-size: 17px;
+    font-family: Calibri, serif;
+    color: #808080;
+  }
+  .tesla_text_hover2_hover11 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    background: #e8830d;
+  }
+  .tesla_text_hover2_hover12 h5 {
+    font-size: 17px;
+    font-family: Calibri, serif;
+    color: black;
+  }
+  .tesla_text_hover2_hover12 a {
+    font-size: 17px;
+    font-family: Calibri, serif;
+    color: #808080;
+  }
+  .tesla_text_hover2_hover12 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tesla_text_hover2_hover13 h5 {
+    font-size: 17px;
+    font-family: Calibri, serif;
+    color: black;
+  }
+  .tesla_text_hover2_hover13 a {
+    font-size: 17px;
+    font-family: Calibri, serif;
+    color: #808080;
+  }
+  .tesla_text_hover2_hover13 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tesla_text_hover2_hover9 {
+    width: 100%;
+    height: 200px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tesla_text_hover2_hover14 {
+    width: 300px;
+    height: 400px;
+    background-color: #e8830d;
+    position: relative;
+    top: 0;
+  }
+  .tesla_text_hover2_hover14 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .tesla_text_hover2_hover16 a {
+    color: #171A20;
+    font-family: Calibri, serif;
+    font-size: 17px;
+  }
+  .tesla_text_hover2_language i {
+    font-size: 20px;
+  }
+  .tesla_model {
+    width: 100%;
+    height: 30vh;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+  }
+  .tesla_model_plaid {
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Calibri, serif;
+    color: #ffffff;
+  }
+  .tesla_model_plaid h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: Calibri, serif;
+    position: relative;
+    top: 0;
+  }
+  .tesla_model_plaid h5 {
+    font-size: 14px;
+  }
+  .tesla_model_plaid h6 {
+    color: white;
+    font-family: Calibri, serif;
+    font-size: 9px;
+  }
+  .tesla_now {
+    width: 80%;
+    height: 100px;
+    background-color: rgba(138, 94, 218, 0.23);
+    align-self: flex-end;
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 0;
+  }
+  .interior {
+    height: 65vh;
+    background-color: #000000;
+  }
+  .interior_perfect1 {
+    width: 100%;
+    height: 300px;
+  }
+  .interior_perfect video {
+    height: 275px;
+  }
+  .interior_perfect1 h1 {
+    font-size: 15px;
+    color: white;
+  }
+  .interior_perfect1 h3 {
+    font-size: 12px;
+    width: 300px;
+  }
+  .sound {
+    height: 170vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .sound_div2 img {
+    width: 100%;
+    height: 205px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sound_div3 {
+    color: white;
+    font-size: 12px;
+  }
+  .sound_div6 {
+    width: 364px;
+  }
+  .sound_div6 video {
+    width: 82%;
+    height: 220px;
+    position: relative;
+    top: -28%;
+  }
+  .sound_div8 {
+    width: 298px;
+  }
+  .sound_div8 img {
+    width: 271px;
+    height: 150px;
+    position: relative;
+    top: 18%;
+    left: 20%;
+  }
+  .sound_div1 {
+    width: 100%;
+    flex-direction: column;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sound_div4 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sound_div7 {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sound_div3 {
+    font-size: 8px;
+    color: #ffffff;
+    font-family: Calibri, serif;
+  }
+  .sound_div5 {
+    font-size: 8px;
+    color: white;
+    font-family: Calibri, serif;
+    position: relative;
+    top: 76%;
+  }
+  .sound_div9 {
+    font-size: 8px;
+    color: white;
+    font-family: Calibri, serif;
+  }
+  .power {
+    background-color: #00ffb2;
+  }
+  .power_body {
+    width: 100%;
+    height: 300px;
+  }
+  .power_body_now5 {
+    width: 80%;
+    height: 100px;
+    align-self: flex-end;
+    display: flex;
+  }
+  .power_body_power {
+    width: 253px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .power_body_power h1 {
+    color: white;
+    font-family: Calibri, serif;
+    font-size: 15px;
+  }
+  .power_body_power p {
+    color: white;
+    font-family: Calibri, serif;
+    font-size: 12px;
+  }
+  .power_body_er {
+    width: 253px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .power_body_er h1 {
+    color: white;
+    font-family: Calibri, serif;
+    font-size: 15px;
+  }
+  .power_body_er p {
+    color: white;
+    font-family: Calibri, serif;
+    font-size: 12px;
+  }
+  .power_body_re {
+    width: 253px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .power_body_re h1 {
+    color: white;
+    font-family: Calibri, serif;
+    font-size: 15px;
+  }
+  .power_body_re p {
+    color: white;
+    font-family: Calibri, serif;
+    font-size: 12px;
+  }
+  .power {
+    height: 45.5vh;
+  }
+  .plaid {
+    height: 30vh;
+    width: 100%;
+  }
+  .plaid_text {
+    align-items: center;
+  }
+  .plaid_main {
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .plaid_main p {
+    font-family: Calibri, serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .plaid_main h1 {
+    font-size: 20px;
+    font-family: Calibri, serif;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .plaid_order {
+    width: 134px;
+    height: 28px;
+    border-radius: 10px;
+    border: rgba(23, 26, 32, 0.96) 3px solid;
+    transition: 1.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 8%;
+  }
+  .plaid_order:hover {
+    background-color: #171A20;
+    color: white;
+    transition: 1.2s;
+  }
+  .plaid_order p {
+    font-size: 15px;
+    font-family: Calibri, serif;
+  }
+  .plaid_main1 {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .plaid_model1 {
+    color: #171a20;
+    font-size: 12px;
+    font-family: Calibri, serif;
+    width: 326px;
+    height: 60px;
+  }
+  .electric {
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(159, 157, 157, 0.28);
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .electric_car1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .electric_car {
+    overflow: hidden;
+  }
+  .electric_ty5 {
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_1235,w_2880,c_fit,f_auto,q_auto:best/Model-S-Dual-Motor-Powertrain-Carousel-Desktop");
+    background-size: cover;
+    width: 100%;
+    height: 186px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+  }
+  .electric_ty6 {
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_1235,w_2880,c_fit,f_auto,q_auto:best/Model-S-Plaid-Tri-Motor-Powertrain-Carousel-Desktop");
+    width: 100%;
+    height: 186px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    opacity: 0;
+    overflow: hidden;
+    background-size: cover;
+    transition: 1s;
+  }
+  .electric_ty6:hover {
+    opacity: 1;
+    transition: 1.2s;
+  }
+  .electric_ty7 {
+    width: 100%;
+    height: 200px;
+  }
+  .electric_ty8 {
+    width: 100%;
+    height: 140px;
+    position: relative;
+    top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .electric_ty10 h1 {
+    font-size: 19px;
+    color: white;
+    font-family: Calibri, serif;
+  }
+  .electric_ty10 p {
+    font-family: Calibri, serif;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.55);
+    width: 244px;
+  }
+  .electric_ty11 p {
+    font-size: 19px;
+    font-family: Calibri, serif;
+    color: white;
+  }
+  .electric_ty11 h5 {
+    font-size: 13px;
+    font-family: Calibri, serif;
+    color: rgba(255, 255, 255, 0.92);
+  }
+  .plaid {
+    background-color: white;
+    height: 30vh;
+    width: 100%;
+  }
+  .plaid_text {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+  }
+  .plaid_main {
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: 0%;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .plaid_main p {
+    font-family: Calibri, serif;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  .plaid_main h1 {
+    font-size: 25px;
+    font-family: Calibri, serif;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .plaid_order {
+    width: 134px;
+    height: 28px;
+    border-radius: 10px;
+    border: rgba(23, 26, 32, 0.96) 3px solid;
+    transition: 1.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 8%;
+  }
+  .plaid_order:hover {
+    background-color: #171A20;
+    color: white;
+    transition: 1.2s;
+  }
+  .plaid_order p {
+    font-size: 15px;
+    font-family: Calibri, serif;
+  }
+  .plaid_main {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .plaid_main1 {
+    width: 100%;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .plaid_model {
+    color: #171a20;
+    font-size: 12px;
+    font-family: Calibri, serif;
+  }
+  .with {
+    width: 100%;
+    height: 252px;
+    background-color: blueviolet;
+  }
+  .with_img1 img {
+    width: 100%;
+    height: 252px;
+    color: #ffffff;
+  }
+  .content {
+    width: 100%;
+    height: 175vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .content_car2 {
+    width: 100%;
+    height: 175vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .content_car2_car3 {
+    width: 70%;
+    height: 333px;
+    display: flex;
+    flex-direction: column;
+  }
+  .content_car2_car3_car4 {
+    width: 100%;
+    height: 134px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .content_car2_car3_car4_car5 img {
+    width: 256px;
+    height: 212px;
+  }
+  .content_car2_car3_car4 h1 {
+    font-size: 13px;
+    color: #ffffff;
+    font-family: Calibri, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content_car2_car3_car6 {
+    width: 70%;
+    height: 333px;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+  }
+  .content_car2_car3_car6_car7 img {
+    width: 256px;
+    height: 212px;
+  }
+  .content_car2_car3_car6_car8 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content_car2_car3_car6_car8 h1 {
+    color: white;
+    font-size: 14px;
+    font-family: Calibri, serif;
+  }
+  .range {
+    height: 112.5vh;
+    width: 100%;
+  }
+  .range_video1 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .range_video1_video2_class1 {
+    width: 100%;
+    height: 436px;
+  }
+  .range_video1_video3 {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+  }
+  .range_video1_video3_video4 {
+    width: 325px;
+    height: 160px;
+    background-color: #ffffff;
+  }
+  .range_video1_video3_video4_video5 {
+    width: 325px;
+    height: 160px;
+    background-color: #ffffff;
+  }
+  .range_video1_video3_video4_video5 p {
+    font-size: 20px;
+    font-family: Calibri, serif;
+    color: #393C41;
+  }
+  .range_video1_video3_video4_video5 h6 {
+    font-size: 14px;
+    font-family: Calibri, serif;
+    color: #393C41;
+  }
+  .range_video1_video3_video4_video5 h2 {
+    font-size: 30px;
+    color: black;
+    font-family: Calibri, serif;
+  }
+  .range_video1_video3_video4_video6 {
+    width: 325px;
+    height: 80px;
+    background-color: #ffffff;
+  }
+  .range_video1_video3_video4_video6_video7 {
+    border: 3px solid #212226;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #212226;
+    width: 300px;
+    height: 40px;
+    color: white;
+  }
+  .range_video1_video3_video4_video6_video7:hover {
+    width: 366px;
+    height: 40px;
+    background-color: rgba(33, 34, 38, 0.2);
+    color: white;
+  }
+  .main_overflow {
+    max-width: 100%;
+    height: 204.75px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  .main_overflow_box {
+    min-width: 100%;
+    width: 364px;
+    height: 204.75px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .main_overflow_box_box5 {
+    width: 364px;
+    height: 204.75px;
+  }
+  .tesla10 {
+    width: 100%;
+    height: 115vh;
+    flex-wrap: wrap;
+  }
+  .tesla10_design2 {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    top: 56.4%;
+  }
+  .tesla10_design3 {
+    width: 100%;
+    height: 180px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+  }
+  .tesla10_design3 p {
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.85);
+    font-family: Calibri, serif;
+    width: 80%;
+  }
+  .tesla10_design3 h1 {
+    color: rgba(0, 0, 0, 0.91);
+    font-size: 26px;
+    font-family: Calibri, serif;
+    width: 80%;
+  }
+  .tesla10_design3 h5 {
+    font-family: Calibri, serif;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.65);
+    position: relative;
+    top: 2%;
+  }
+  .tesla10_design4 {
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+  }
+  .tesla10_design4 h5 {
+    font-size: 13px;
+    font-family: Calibri, serif;
+    color: rgba(0, 0, 0, 0.65);
+  }
+  .tesla10_design5 {
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-color: #ffffff;
+    position: relative;
+    top: -65%;
+    align-items: center;
+    justify-content: center;
+  }
+  .tesla10_design6 {
+    background-image: url("https://tsk.ua/data/teslacat_razdel/48/0/480_a.png");
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: -40%;
+    background-size: cover;
+  }
+  .tesla10_design7 {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tesla10_design8 {
+    width: 200px;
+    height: 40px;
+    border: 3px solid rgba(0, 0, 0, 0.9);
+    position: relative;
+    right: 22%;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Calibri, serif;
+    color: rgba(0, 0, 0, 0.79);
+    font-size: 20px;
+    transition: 1s;
+  }
+  .tesla10_design8:hover {
+    background-color: rgba(0, 0, 0, 0.92);
+    color: white;
+    transition: 1s;
+  }
+  .vision {
+    width: 100%;
+    height: 200px;
+  }
+  .vision_cars img {
+    width: 100%;
+    height: 200px;
+  }
+  .pilot {
+    width: 100%;
+    height: 40vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 5%;
+  }
+  .pilot_driving {
+    height: 38vh;
+    flex-direction: column;
+  }
+  .pilot_driving_driving1 {
+    width: 100%;
+    height: 148px;
+    background-color: #ffffff;
+    position: relative;
+  }
+  .pilot_driving_driving1 h5 {
+    color: #1f1d1d;
+    font-size: 15px;
+    font-family: Calibri, serif;
+    position: relative;
+    width: 100px;
+  }
+  .pilot_driving_driving1 h1 {
+    color: black;
+    font-family: "Gotham SSm", Calibri, serif;
+    font-size: 28px;
+    position: relative;
+    width: 100%;
+  }
+  .pilot_driving_driving2 {
+    width: 180px;
+    height: 38px;
+    border: 2px solid #171a20;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: 1.2s;
+    position: relative;
+    top: 5%;
+  }
+  .pilot_driving_driving2_driving3 {
+    font-family: "Gotham SSm", Calibri, serif;
+    color: #171a20;
+    font-size: 15px;
+  }
+  .pilot_driving_driving2:hover {
+    transition: 1.2s;
+    background-color: #171a20;
+    color: white;
+  }
+  .pilot_driving_driving2:hover span {
+    color: white;
+    transition: 1.2s;
+  }
+  .pilot_driving_driving4 {
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pilot_driving_driving4_driving5 {
+    font-family: "Gotham SSm", Calibri, serif;
+    font-size: 17px;
+    color: #171a20;
+    width: 300px;
+    position: relative;
+  }
+  .range {
+    width: 100%;
+    height: 130vh;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .range_drag {
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_3071,w_4096,c_fit,f_auto,q_auto:best/Model-S-Specs-Hero-Desktop-LHD");
+    width: 199px;
+    height: 270px;
+    background-size: cover;
+  }
+  .range_drag1 {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+  }
+  .range_drag1_drag7 {
+    width: 150px;
+  }
+  .range_drag1_drag3 {
+    width: 200px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .range_drag1_drag3_drag4 {
+    width: 145px;
+    height: 28px;
+    border: 3px solid white;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 5%;
+  }
+  .range_drag1_drag3_drag4 h6 {
+    font-family: "Gotham SSm", Calibri, serif;
+    color: white;
+    font-size: 14px;
+  }
+  .range_drag1_drag3 h1 {
+    font-family: "Gotham SSm", Calibri, serif;
+    font-size: 32px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 364px;
+    height: 100px;
+  }
+  .range_drag1_drag5 {
+    width: 110px;
+    height: 600px;
+    position: relative;
+    left: 5%;
+  }
+  .range_drag1_drag5_drag6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 180px;
+    height: 500px;
+  }
+  .range_drag1_drag5_drag6 li {
+    font-family: "Gotham SSm", Calibri, serif;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+  }
+  .range_drag1_drag10 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    top: 3.5%;
+  }
+  .range_drag1_drag10_drag11 {
+    width: 153px;
+    height: 28px;
+    border: 3px solid rgba(255, 255, 255, 0.39);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    top: -7%;
+  }
+  .range_drag1_drag10_drag11 h5 {
+    font-size: 14px;
+    font-family: "Gotham SSm", Calibri, serif;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .range_drag1_drag8 {
+    width: 100px;
+    height: 600px;
+    position: relative;
+    top: 3%;
+  }
+  .range_drag1_drag8_drag9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 150px;
+    height: 600px;
+  }
+  .range_drag1_drag8_drag9 li {
+    font-family: "Gotham SSm", Calibri, serif;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .range_drag1_drag8_drag12 {
+    color: white;
+  }
+  .range_drag1_drag8_drag13 {
+    color: white;
+    font-size: 14px;
+  }
+  .request {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .request_callback {
+    width: 364px;
+    height: 200px;
+  }
+  .request_callback_request1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .request_callback_request1_request2 {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .request_callback_request1_request2_request5 {
+    width: 60%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .request_callback_request1_request2_request5_request11 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .request_callback_request1_request2_request5_request11 p {
+    width: 250px;
+    text-align: center;
+  }
+  .request_callback_request1_request2_request5_request6 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    top: 10%;
+  }
+  .request_callback_request1_request2_request5_request7 {
+    width: 250px;
+    height: 37px;
+    border: 3px solid #171a20;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1.2s;
+  }
+  .request_callback_request1_request2_request5_request7_request9 {
+    color: #171A20;
+    font-family: "Gotham SSm", Calibri, serif;
+    font-size: 17px;
+  }
+  .request_callback_request1_request2_request5_request7_request8 {
+    width: 250px;
+    height: 37px;
+    background-color: #F4F4F4;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10%;
+  }
+  .request_callback_request1_request2_request5_request7_request8_request10 {
+    color: #171A20;
+    font-family: "Gotham SSm", Calibri, serif;
+    font-size: 17px;
+  }
+  .request_callback_request1_request2_request5_request7:hover {
+    background-color: #171A20;
+    transition: 1.2s;
+    color: white;
+  }
+  .request_callback_request1_request2_request5_request7:hover a {
+    color: white;
+    transition: 1.2s;
+  }
+  .request_callback_request1_request2_request5 h1 {
+    color: #171A20;
+    font-family: "Gotham SSm", Calibri, serif;
+    font-size: 30px;
+  }
+  .request_callback_request1_request2_request5 p {
+    color: #393C41;
+    font-family: "Gotham SSm", Calibri, serif;
+    font-size: 15px;
+  }
+  .request_callback_request1_request3 {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .request_callback_request1_request3_request4 img {
+    width: 315px;
+    height: 175px;
+    position: relative;
+    left: 0;
+  }
+  .news {
+    width: 100%;
+    height: 30vh;
+  }
+  .news_news2 {
+    background-color: white;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .news_news2_news3 {
+    text-align: center;
+    font-family: "Gotham SSm", Calibri, serif;
+    font-size: 13px;
+    width: 310px;
+  }
+  .news_news2_news3 a {
+    font-size: 13px;
+    color: #171a20;
+  }
+  .news_news4 {
+    color: white;
+    display: flex;
+    width: 90%;
+    height: 100px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .news_news4_news5 {
+    display: flex;
+    font-family: "Gotham SSm", Calibri, serif;
+    font-size: 13px;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+/*# sourceMappingURL=tesla.css.map */

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .main {
+            width: 200px;
+            position: relative;
+            color: red;
+            height: 40px;
+            max-height: 40px;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hover {
+            width: 763%;
+            height: 500px;
+            position: absolute;
+            top: -700px;
+            opacity: 0;
+            transition: 2s;
+            color: rebeccapurple;
+            background: blue;
+            overflow: hidden;
+            left: 0;
+        }
+
+        .main:hover .hover {
+            top: 0;
+            opacity: 1;
+            overflow: visible;
+        }
+
+        h2{
+            z-index: 999;
+            position: fixed;
+            /*height: 100px;*/
+            /*width: 100px;*/
+            /*opacity: 0;*/
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 2s;
+
+        }
+       h2:hover{
+           width: 200px;
+           height: 100px;
+           background: yellow;
+           transition: 2s;
+
+       }
+
+
+
+    </style>
+</head>
+<body>
+<div class="main">
+    <h2>Tesla</h2>
+
+    <div class="hover">
+
+    </div>
+</div>
+</body>
+</html>
